@@ -7,7 +7,7 @@ names(DGE_publication) <- DGE_publication_filename %>% stringr::str_extract("(LS
 
 lapply(names(DGE_publication), 
        function(name = ...){
-         df <- DGE_publication[[name]]
+         df <- DGE_publication[[name]] %>% dplyr::arrange(-log2FoldChange)
          readr::write_csv(df, file.path("data", "DGE_list_publication", paste0("pool_", name, ".csv")))})
 
 saveRDS(DGE_publication, file = "data/DGE_list_publication/DGE_publication.rds")
