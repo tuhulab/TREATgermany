@@ -12,7 +12,7 @@ Table E1 (NOT available)
 
  <i> | LSvsNL | LSvsNN | NLvsNN | R object
 --- | --- | --- | --- | ---
-No. of Dysregulated Genes (pooled)| [985](data/DGE_list_publication/pool_LSvsNL.csv) | [5787](data/DGE_list_publication/pool_LSvsNN.csv) | [3739](data/DGE_list_publication/pool_NLvsNN.csv) | readRDS(url("https://raw.githubusercontent.com/tuhulab/TREATgermany/master/data/DGE_list_publication/DGE_publication.rds"))
+No. of Dysregulated Genes (pooled)| [985](data/DGE_list_publication/pool_LSvsNL.csv) | [5787](data/DGE_list_publication/pool_LSvsNN.csv) | [3739](data/DGE_list_publication/pool_NLvsNN.csv) | readRDS(url("https://rawcdn.githack.com/tuhulab/TREATgermany/edf8b1cb1534a6496cbc1d8591aa246e42b3e9f3/data/DGE_list_publication/DGE_publication.rds"))
 
 ### Core Signatures
 
