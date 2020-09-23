@@ -12,3 +12,7 @@ lapply(names(DGE_publication),
 
 saveRDS(DGE_publication, file = "data/DGE_list_publication/DGE_publication.rds")
 
+# Core signature ----
+core_signature <- readxl::read_excel("data/publication_appendix/mmc5.xlsx")
+core_signature %>% readr::write_csv("data/core_signature.csv")
+saveRDS(core_signature, file = "data/core_signature.rds")
