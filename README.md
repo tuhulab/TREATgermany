@@ -16,8 +16,8 @@ No. of Dysregulated Genes (pooled)| [985](data/DGE_list_publication/pool_LSvsNL.
 
 ### Core Signatures
 
- <i> | LS = NL ≠ NN | R object
---- | --- | --- | --- | ---
+ <i>                     | LS = NL ≠ NN                    | R object |
+:----                    |:--------------------------------|:------------------------------------------------------------------------------ |
 No. of Dysregulated Genes| [7466](data/core_signature.csv) | readRDS(url("https://raw.githubusercontent.com/tuhulab/TREATgermany/master/data/core_signature.rds")) |
 
 ## Background
